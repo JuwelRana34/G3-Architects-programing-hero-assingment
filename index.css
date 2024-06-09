@@ -149,14 +149,14 @@
 }
 
 .main2ndSectionleft-head{
-    border-left: 3px;
-    border-color: #ff8e0a;
+    
     padding: 0 0.5rem;
     margin: 0.75rem 0;
 }
 .main2ndSectionleft-head h1{
     font-size: 1.875rem/* 30px */;
     line-height: 2.25rem/* 36px */;
+    border-left: 3px solid #ff8e0a;
 
 }
 
