@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.customshadow {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+.navBar{
+    background-color: transparent;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+.menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #585858;
+    
+}
+
+/* hero  */
+.hero div{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+    margin: 1rem 0;
+    margin: auto;
+}
+.hero h1{
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; 
+     font-weight: 700;
+     margin: 0.75rem 0;
+}
+.hero p{
+    text-align: justify;
+    padding: 0  0.5rem;
+}
+.hero button{
+    background-color:#ff8e0a ;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+.hero img{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+/* main  */
+
+/* 1st section  */
+.Our-Features{
+    margin-top: 5rem;
+    align-items: center;
+    /* margin:  auto; */
+    width: 100%;
+}
+.leftSide {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    
+    width: 100%;
+
+}
+.leftSide-img {
+    padding: 0.5rem;
+    object-fit: cover;
+    width: 90%;
+}
+
+/* rightside  */
+
+.rightSide{
+    width: 100%;
+    
+    
+}
+.rightSide div{
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    
+}
+.p{
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+    color: rgb(107 114 128 );
+    margin: 0.75 0;
+    
+}
+.of-our{
+    font-weight: bold;
+    color: black;
+}
+.rightsideParagraph{
+    text-align: justify;
+}
+.Features{
+    font-weight: bold;
+    color: #ff8e0a;
+}
+.rightSide button{
+    background-color:#ff8e0a ;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+/* 2nd section */
+
+.main2ndSection{
+    margin-top: 3rem;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main2ndSectionleft{
+    width: 100%;
+   
+}
+
+.main2ndSectionleft-head{
+    border-left: 3px;
+    border-color: #ff8e0a;
+    padding: 0 0.5rem;
+    margin: 0.75rem 0;
+}
+.main2ndSectionleft-head h1{
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+
+}
+
+.main2ndSectionleft p{
+    color:#727272 ;
+    padding: 1rem;
+    text-align: justify;
+   
+}
+
+.main2ndSectionleft-divs{
+    margin: 0.5rem 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.main2ndSectionleft-divs h1{
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    font-weight: 600;
+}
+.main2ndSectionleft-divs p{
+    color: #727272;
+}
+
+/* main2ndSectionRight */
+
+.main2ndSectionRight{
+    width: 100%;
+    
+
+}
+.main2ndSectionRight div{
+    position: relative;
+
+}
+.main2ndSectionRight div img{
+    object-fit: cover;
+    width: 100%;
+}
+.main2ndSectionRight div div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ff8e0a;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+}
+.main2ndSectionRight div div h1{
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+}
+
+
+/* main sesction 3 */
+.mainSection3{
+    margin: 5rem 0;
+}
+.mainSection3 div{
+    padding: 0.75rem;
+    text-align: center;
+}
+.mainSection3-P {
+    text-align: justify;
+    margin: 1rem 0;
+    margin: auto;
+    padding: 2rem 0;
+}
+.mainSection3-info{
+    margin: 1.25rem 0;
+}
+.mainSection3-info div{
+    border: 1px solid rgb(249 115 22);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+/* mainSection4 */
+.mainSection4{
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.mainSection4 div p{
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 90%;
+}
+
+.mainSection4 div div{
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    place-items:center;
+
+}
+
+.grayscale{
+    margin: 0.75rem;
+    filter: grayscale(100%);
+}
+
+/* footer  */
+footer{
+    background-color: rgb(255 244 231);
+    text-align: center;
+    padding: 2rem 0;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    /* hero  */
+    .hero div{
+        width: 50%;       
+    }
+    .hero h1{
+        font-size: 2.25rem/* 36px */;
+        line-height: 2.5rem       
+    }
+    .hero img{
+      
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* main  */
+
+/* 1st section  */
+    .Our-Features{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .leftSide {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 0.5rem;
+        width: 100%;
+        
+    }
+
+    .rightSide{
+        width: 85%;
+        
+    }
+    .rightSide div{
+        width: 85%;
+        
+    }
+    .rightSide h{
+        width: 85%;
+        
+    }
+
+    /* 2nd section  */
+    .main2ndSection{
+        display: flex;
+    }
+    .main2ndSectionleft{
+        width: 50%;
+        
+        
+    }
+    /* main2ndSectionRight */
+
+    .main2ndSectionRight{
+        width: 50%;
+  
+    }
+    .main2ndSectionRight div div{
+        
+        bottom: -2rem;
+        left: -0.5rem;
+    }
+    /* mainSection3  */
+    .mainSection3-P {
+        width: 35%;
+    }
+    .mainSection3-info{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1.25rem 0;
+    }
+
+    /* main section4  */
+    .mainSection4 div div{
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        
+    }
+    .mainSection4 div p{
+        width: 50%;
+        
+    }
+
+    .grayscale{
+        width: 90%;
+        
+    }
+    .menu{
+        
+        flex-direction: row;
+    }
+    .nav{
+        flex-direction: row;
+    }
+   
+
+}
+
+
+
+@media (min-width: 640px) {
+    .main2ndSectionleft{
+       
+        margin: 1rem;
+    }
+    .main2ndSectionRight div{
+        padding: 0 2.25rem;
+    
+    }
+
+}
